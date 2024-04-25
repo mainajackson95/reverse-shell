@@ -1,0 +1,1 @@
+sendemail -s smtp.sendgrid.net:2525 -xu <username probably apikey> -xp <password/apikey> i -f "to whom the email will be sent to<email>" -t "<target to who you want to send to" -u "<header of the email> -m "<message>" -o message-header="add from the person sending <mail>
